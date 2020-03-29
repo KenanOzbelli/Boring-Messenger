@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    border-bottom: 5px solid #F2E96B;
+}
+.navFoot,.navBar{
+    background:#8EBABF;
+    color:#F2E96B;
+}
+.navFoot{
+    padding: 1rem;
+    border-top: 5px solid #F2E96B;
+}
+button{
+    margin: 0 auto;
+    text-decoration: none;
+    border: none;
+    padding: .5rem;
+    border-radius:10%;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.8rem; 
+    position: fixed;
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
